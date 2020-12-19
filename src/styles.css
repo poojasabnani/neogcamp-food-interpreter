@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+input {
+  padding: 1rem;
+  width: 60%;
+}
+
+body {
+  background-color: #fde68a;
+}
+
+h1 {
+  padding: 1rem;
+  color: #991b1b;
+}
+
+#foodList {
+  padding: 1rem 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+span {
+}
