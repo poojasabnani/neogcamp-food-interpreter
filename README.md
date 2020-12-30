@@ -2,13 +2,19 @@
 
 An application built with ReactJS as part of Lesson Five of NeoGcamp Lesson Five. 
 
-This food interpreter consists of a search box to search for a food emoticon to get the name of the item.
+Features:
+- Search box to search for a food emoticon
+- List of food emoticons for user to choose from
 
-It also consists of a list of food emoticons the user can click on to get the name of the item. 
+View App: [Food Interpreter](http://s3zs5.csb.app/)
 
 ## Technologies and Frameworks:
 1. ReactJS
 2. CSS
 3. Codesandbox
+
+<h3>Preview: </h3>
+
+![image](images/application_snippet.PNG)
 
 
