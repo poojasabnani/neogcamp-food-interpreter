@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./styles.css";
 
 export default function App() {
-  var foodDictionary = {
+  const foodDictionary = {
     "🥔": "Potato",
     "🥥": "Coconut",
     "🥑": "Avocado",
@@ -21,10 +21,10 @@ export default function App() {
     "🍓": "Strawberry"
   };
 
-  var [foodMeaning, setFoodMeaning] = useState("");
+  const [foodMeaning, setFoodMeaning] = useState("");
 
   function onChangeHandler(event) {
-    var foodResult = event.target.value;
+    const foodResult = event.target.value;
     if (foodResult in foodDictionary) {
       setFoodMeaning(foodDictionary[foodResult]);
     } else {
@@ -33,10 +33,10 @@ export default function App() {
   }
 
   function foodClickHandler(food) {
-    var foodMeaning = foodDictionary[food];
+    const foodMeaning = foodDictionary[food];
     setFoodMeaning(foodMeaning);
   }
-  var foodArray = Object.keys(foodDictionary);
+  const foodArray = Object.keys(foodDictionary);
 
   return (
     <div className="App">
